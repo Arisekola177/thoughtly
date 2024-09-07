@@ -26,14 +26,14 @@ const Start = () => {
                </div>
                <div className="xs:hidden md:block">
                 <div className='py-4  bg-white rounded-md shadow-lg flex items-center justify-center w-[150px] h-[100px] relative'>
-                 <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto ">
-                  <Image src={people3} alt="people" width={40} height={40} className="animate-fadeInOut1" />
+                 <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto animate-fadeInOut1">
+                  <Image src={people3} alt="people" width={40} height={40}  />
                    </div>
-                  <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto">
-                   <Image src={people1} alt="people" width={40} height={40} className="animate-fadeInOut2" />
+                  <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto animate-fadeInOut2">
+                   <Image src={people1} alt="people" width={40} height={40} />
                     </div>
-                    <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto ">
-                   <Image src={people2} alt="people" width={40} height={40} className="animate-fadeInOut2" />
+                    <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto  animate-fadeInOut2">
+                   <Image src={people2} alt="people" width={40} height={40}  />
                     </div>
                    </div>
                 
@@ -87,7 +87,7 @@ const Start = () => {
         </div>
         </div>
              </div>
-            <div className='bg-white rounded-lg md:w-full lg:w-[400px] shadow-lg py-4 px-3 xs:ml-10 sml:ml-32 md:ml-0 xs:mt-16 md:mt-36 '>
+            <div className='bg-white rounded-lg md:w-full lg:w-[400px] shadow-lg py-4 px-3 xs:ml-10 xs:mr-[-100px]  sml:ml-32 md:ml-0 xs:mt-16 md:mt-36 '>
                 <ABTestComponent />  
            </div>
 

@@ -100,7 +100,7 @@ const HomeBanner = () => {
            <div className="md:col-span-4 flex flex-col xs:text-center md:text-start gap-3 ">
               <h1 className="xl:text-8xl xs:text-2xl sm:text-4xl lg:text-6xl font-semibold text-slate-800">Your phone <br /> calls, handled <br /> beautifully.</h1>
               <p className="md:w-[350px] w-full xs:text-xs sm:text-sm md:text-lg text-slate-500">Thoughtly helps businesses build and deploy human-like AI voice agents in just 17 minutes. Welcome to the future of calling.</p>
-              <div className="bg-white w-full md:w-[350px] xs:mt-6 md:mt-0 rounded-md flex items-center">
+              <div className="bg-white w-full md:w-[350px] border-[1px] p-1 border-gray-300 xs:mt-6 md:mt-0 rounded-md flex items-center">
               <input placeholder="What is your work email?" type="text" className="text-xs w-full p-2 outline-none" />
               <div className="bg-gradient-to-r from-[#6fd870] to-[#4fbf50] sm:w-1/2 xs:w-3/4 text-center shadow-lg rounded-md">
               <button className='sm:py-3 xs:p-2 sm:px-2 font-semibold text-xs '>Get Started</button>
@@ -129,13 +129,13 @@ const HomeBanner = () => {
            <div className="col-span-1 w-full h-[100px] flex items-end justify-end xs:hidden sm:block md:hidden">
            <div className='py-4  bg-white w-full h-full rounded-md shadow-lg flex items-center justify-center relative'>
                  <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto ">
-                  <Image src={people3} alt="people" width={40} height={40} className="animate-fadeIn" />
+                  <Image src={people3} alt="people" width={40} height={40} className=" animate-fadeInOut2" />
                    </div>
                   <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto">
-                   <Image src={people1} alt="people" width={40} height={40} className="animate-fadeIn" />
+                   <Image src={people1} alt="people" width={40} height={40} className=" animate-fadeInOut2" />
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center xs:w-[30px] h-auto mx-auto ">
-                   <Image src={people2} alt="people" width={40} height={40} className="animate-fadeIn" />
+                   <Image src={people2} alt="people" width={40} height={40} className=" animate-fadeInOut2" />
                     </div>
             </div>
            </div>

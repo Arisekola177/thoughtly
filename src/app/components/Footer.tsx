@@ -1,4 +1,4 @@
-
+import  GotoTopButton from '@/app/components/GotoTopButton'
 
 const Footer = () => {
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
            <p className="text-xs font-medium ">X(Twitter)</p>
            </div>
            <div className="col-span-2">
-                <div className="bg-white rounded-md flex items-center">
+                <div className="bg-white border-[1px] border-gray-300 p-1 rounded-md flex items-center">
               <input placeholder="What is your work email?" type="text" className="text-xs w-full p-2 outline-none" />
               <div className="bg-gradient-to-r from-[#6fd870] to-[#4fbf50] w-1/2 text-center shadow-lg rounded-md">
               <button className='py-3 px-2 font-semibold text-xs '>Get Started</button>
@@ -77,7 +77,7 @@ const Footer = () => {
                  < p  className="text-xs font-medium">X(Twitter)</p>
              </div>
              
-             <div className="bg-white w-[350px] rounded-md flex items-center">
+             <div className="bg-white border-[1px] border-gray-300 p-1 w-[350px] rounded-md flex items-center">
               <input placeholder="What is your work email?" type="text" className="text-xs w-full p-2 outline-none" />
               <div className="bg-gradient-to-r from-[#6fd870] to-[#4fbf50] w-1/2 text-center shadow-lg rounded-md">
               <button className='py-3 px-2 font-semibold text-xs '>Get Started</button>
@@ -96,6 +96,7 @@ const Footer = () => {
                 <p className="text-gray-400 font-extralight">Privacy Policy</p>
              </div>
         </div>
+        <GotoTopButton />
     </div>
   )
 }

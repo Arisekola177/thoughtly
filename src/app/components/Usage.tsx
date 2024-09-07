@@ -21,31 +21,31 @@ const Usage = () => {
                            </div>
                           
                      </div>
-                     <div className="xl:mt-10 md:mt-20 xs:mt-10 xs:px-2 sm:px-8 flex flex-col gap-4 w-full bg-white">
+                     <div className="xl:mt-10 md:mt-20 xs:mt-10 px-2 flex flex-col gap-4 w-full bg-white">
                               <MdCalendarMonth className="text-lg" />
-                              <h3 className="sml:text-2xl xs:text-lg font-semibold text-slate-800">Appointment <br className="sm:hidden md:block" /> Scheduling</h3>
-                              <p className="sml:text-sm xs:text-[10px] sm:text-[14px] text-slate-500 whitespace-nowrap">Your Thoughtly agent synces with your calender,<br /> working alongside callers to pinpoint the<br /> perfect meeting time. Coordinate effortlessly.</p>
+                              <h3 className="sml:text-2xl xs:text-lg font-semibold text-slate-800">Appointment  Scheduling</h3>
+                              <p className="sml:text-sm xs:text-[10px] sm:text-[13px] text-slate-500 whitespace-nowrap">Your Thoughtly agent synces with your calender,<br /> working alongside callers to pinpoint the<br /> perfect meeting time. Coordinate effortlessly.</p>
                         </div>
                      </div>
                      <div className="border-[1px] col-span-1 border-gray-300 w-[300px] md:h-[300px] xs:h-[200px] rounded-2xl border-r-0">
                           <h2 className="text-slate-500 text-xs p-4">John's Thursday </h2>
                           <hr  />
-                          <div className="md:p-8 xs:p-2 flex flex-col gap-4">
-                             <div className="flex items-center gap-4">
+                          <div className="md:p-4 xs:p-2 flex flex-col gap-4">
+                             <div className="flex items-center gap-2">
                                 <div className="w-[10px] h-[10px] rounded-full bg-yellow-500" /> 
                                 <div className="flex flex-col gap-2">
                                     <h3 className="sml:text-sm xs:text-[10px] font-semibold">Team Discussion</h3>
                                     <h4 className="text-slate-500 xs:text-[8px] sml:text-xs">9:30am</h4>
                                 </div>
                              </div>
-                             <div className="flex items-center gap-4">
+                             <div className="flex items-center gap-2">
                                 <div className="w-[10px] h-[10px] rounded-full bg-blue-500" /> 
                                 <div className="flex flex-col gap-2">
                                     <h3 className="sml:text-sm xs:text-[10px] font-semibold">Demo Walk Thru //</h3>
                                     <h4 className="text-slate-500 xs:text-[8px] sml:text-xs">9:45am</h4>
                                 </div>
                              </div>
-                             <div className="flex items-center gap-4">
+                             <div className="flex items-center gap-2">
                                 <div className="w-[10px] h-[10px] rounded-full bg-green-500" /> 
                                 <div className="flex flex-col gap-2">
                                     <h3 className="sml:text-sm xs:text-[10px] font-semibold">Sales Meeting</h3>
@@ -60,7 +60,7 @@ const Usage = () => {
               <div className="bg-white rounded-lg shadow-md px-4 grid grid-cols-3 gap-3 overflow-hidden">
                  <div className="flex flex-col gap-4 col-span-2">
                     <div className="grid grid-cols-2 gap-2">
-                       <div className="border-[1px] mt-[-30px] xs:h-[14vh] md:h-[10vh] lg:h-[24vh] sml:h-[24vh] border-gray-300 p-6 rounded-2xl">
+                       <div className="border-[1px] mt-[-30px] xs:h-[14vh] md:h-[10vh] sml:h-[24vh] border-gray-300 p-6 rounded-2xl">
                         <div className="xl:w-[120px] xl:h-[120px] mx-auto rounded-full">
                         <Image src={people1} alt="people" />
                         </div>
@@ -104,7 +104,7 @@ const Usage = () => {
                <div className="bg-white rounded-lg shadow-lg flex items-center justify-between xs:flex-col-reverse md:flex-row gap-2 relative">
                     <div className="md:w-[40%]  xs:w-full flex flex-col items-start justify-end gap-4 md:p-3 lg:p-6 xs:p-6">
                         <MdAnalytics className="text-slate-500 text-lg" />
-                        <h3 className="sml:text-3xl xs:text-xl md:text-xs lg:text-sm font-semibold text-slate-800">Analytics & <br /> Reporting</h3>
+                        <h3 className="sml:text-3xl xs:text-xl md:text-xs lg:text-sm font-semibold text-slate-800">Analytics & Reporting</h3>
                         <p className="sml:text-sm text-slate-500 md:text-[10px] lg:text-xs sm:text-[14px] xs:text-xs">Optimize your communication strategies by leveraging industry-leading analytics and data collection.</p>
                     </div>
                     <div className="md:w-[60%] xs:w-full py-16 bg-gray-50">
@@ -145,7 +145,7 @@ const Usage = () => {
                                        <p className="text-slate-500 xs:text-[10px] sm:text-xs font-semibold">555-555-3211</p>
                                        <p className="text-[8px] text-gray-300 uppercase">Incoming call</p>
                                 </div>
-                                <div className="border-[1px] border-b-0 ml-32 bg-white border-gray-300 rounded-lg flex items-center flex-col mt-5 px-10 py-3">
+                                <div className="border-[1px] border-b-0 ml-24 bg-white border-gray-300 rounded-lg flex items-center flex-col mt-5 px-10 py-3">
                                  <div className="w-[50px]  mx-auto rounded-full">
                                 <Image src={people1} alt="people"  className="w-full object-contain" />
                               </div>
@@ -173,7 +173,7 @@ const Usage = () => {
                            <div className="flex flex-col  gap-4 p-6 bg-white">
                                 <MdOutbound className="text-lg text-slate-500" />
                                 <h2 className="md:text-3xl xs:text-xl font-semibold text-slate-800">Call  Routing</h2>
-                                <p className="text-xs sm:text-[14px] text-slate-500">Build a human-like receptionist to route <br /> calls based on natural requests from your<br /> customers- all with zero hold time.</p>
+                                <p className="text-xs sm:text-[14px] text-slate-500">Build a human-like receptionist to route  calls based on natural requests from your customers- all with zero hold time.</p>
                              </div>
                      </div>
                        <div className="hidden md:flex flex-col gap-6 col-span-2">
@@ -213,7 +213,7 @@ const Usage = () => {
                     </div>
                 </div>
              </div>
-             <div className="col-span-1 rounded-lg shadow-lg bg-white">
+             <div className="md:col-span-1 xs:col-span-2 rounded-lg shadow-lg bg-white">
                   <div className="grid grid-cols-3 p-4 gap-2">
                      <div className="col-span-2 border-gray-300 border-[1px] rounded-md ">
                          <div className="flex items-center justify-center py-3 gap-2">
@@ -273,7 +273,7 @@ const Usage = () => {
                       <h2 className="text-slate-500 text-[12px] xl:text-xs">Add to a Thoughtly</h2>
                     </div>
                   </div>
-                  <div className="xl:mt-10 xs:mt-1 flex flex-col gap-4 px-4 md:py-4">
+                  <div className="xl:mt-10 xs:mt-1 flex flex-col gap-4 px-4 py-4">
                          <MdCode className="xl:text-2xl text-xl font-semibold" />
                          <h2 className="lg:text-3xl xs:text-xl font-semibold text-slate-800">Custome Knowledge Base</h2>
                          <p className="text-xs text-slate-500 xs:w-[300px] md:w-full xl:w-[300px]">Train your agent on hours of call recordings, unstructured text, and even your website. Your agent will learn from your data and improve over time.</p>

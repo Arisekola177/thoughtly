@@ -9,15 +9,15 @@ const Payment = () => {
         <MdChat className="text-blue-600 xs:text-xs sml:text-lg" />
         </div>
        
-        <h2 className="sml:text-lg xs:text-xs font-semibold">Speak</h2>
+        <h2 className="sml:text-lg xs:text-sm font-semibold">Speak</h2>
        </div>
        <hr />
         <p className='text-xs text-center text-slate-500'>Got it, thanks for being a customer for <span className='text-blue-500'>{`{api.num_years}`}</span>  incredible years, <span className='text-blue-500'>{`{name}`}</span>! So, what can i do for you?</p>
         <div className='flex items-center justify-center xs:gap-2 sml:gap-4 mt-5'>
-            <button className='text-slate-500 xs:text-[8px] sm:text-[14px] sml:text-xs'>MAKE PAYMENT</button>
-            <button className='text-slate-500 xs:text-[8px] sm:text-[14px] sml:text-xs'>PLACE ORDER</button>
-            <button className='text-slate-500 xs:text-[8px] sm:text-[14px] sml:text-xs'>BOOK APPOINTMENT</button>
-            <button className='text-slate-500 xs:text-[8px] sm:text-[14px] sml:text-xs'>SOMETHING ELSE</button>
+            <button className='text-slate-500 xs:text-[8px] sm:text-[10px] sml:text-xs'>MAKE PAYMENT</button>
+            <button className='text-slate-500 xs:text-[8px] sm:text-[10px] sml:text-xs'>PLACE ORDER</button>
+            <button className='text-slate-500 xs:text-[8px] sm:text-[10px] sml:text-xs'>BOOK APPOINTMENT</button>
+            <button className='text-slate-500 xs:text-[8px] sm:text-[10px] sml:text-xs'>SOMETHING ELSE</button>
         </div>
 </div>
   )
