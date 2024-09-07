@@ -47,7 +47,7 @@ const Business = () => {
     <div className="bg-gray-100 bg-dotted-pattern md:w-11/12 w-full mx-auto shadow-md rounded-2xl mt-20 relative py-16">
       
       <div className="flex items-center justify-center flex-col gap-4 mb-10">
-        <h1 className="text-3xl text-center font-medium text-slate-800">
+        <h1 className=" xs:text-2xl sml:text-3xl text-center font-medium text-slate-800">
           Human-like agents, fully <br /> integrated into your business.
         </h1>
         <p className="text-slate-500 text-center text-sm max-w-lg">

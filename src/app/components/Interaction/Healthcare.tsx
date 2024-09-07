@@ -35,7 +35,7 @@ const Healthcare = () => {
           <p className="text-slate-500 text-xs w-[350px]">"Thank you for calling ABC Medicare, who am I speaking with?"</p>
         </div>
 
-        <div className="bg-white absolute xs:bottom-[-60px] xl:bottom-10 md:bottom-[-120px] md:right-[-25px] xs:right-[-10px] xl:right-[-15px] lg:w-[300px] xs:w-[300px] md:w-full rounded-lg shadow-lg flex flex-col gap-4 xs:py-4 xs:px-2 md:py-8 md:px-4">
+        <div className="bg-white absolute xs:bottom-[-60px] xl:bottom-10 md:bottom-[-120px] md:right-[-25px] xs:right-[-10px] xl:right-[-15px] lg:w-[300px] xs:w-[200px] md:w-[250px] rounded-lg shadow-lg flex flex-col gap-4 xs:py-4 xs:px-2 md:py-8 md:px-4">
           <div className='flex flex-col gap-2 xs:px-4 md:px-0'>
             <h4 className='text-sm text-slate-800 font-medium'>Assertiveness</h4>
             <div className="h-[12px] w-full bg-gray-200 border-gray-300 rounded-md">
