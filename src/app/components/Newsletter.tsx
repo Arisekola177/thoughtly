@@ -9,15 +9,15 @@ const Newsletter = () => {
         <div>
             <h2 className="text-4xl font-semibold text-slate-800">Join the <br /> communication <br /> revolution.</h2>
         </div>
-        <div className="bg-white w-[350px] border-[1px] border-gray-300 p-1 rounded-md flex items-center">
+        <div className="bg-white w-full md:w-[350px] border-[1px] p-1 border-gray-300 rounded-md flex items-center">
               <input placeholder="What is your work email?" type="text" className="text-xs w-full p-2 outline-none" />
-              <div className="bg-gradient-to-r from-[#6fd870] to-[#4fbf50] w-1/2 text-center shadow-lg rounded-md">
-              <button className='py-3 px-2 font-semibold text-xs '>Get Started</button>
-            </div>
-              </div>
-              <div>
+              <div className="bg-gradient-to-r from-[#6fd870] to-[#4fbf50] sm:w-1/2 xs:w-3/4 text-center shadow-lg rounded-md">
+              <button className='sm:py-3 xs:p-2 sm:px-2 font-semibold text-xs '>Get Started</button>
+             </div>
+         </div>
+         <div>
                 <p className="text-slate-500 text-xs">Slach your costs and transform your customer <br /> experience. The generative AI revolutionis here. Don't <br /> get left behind.</p>
-              </div>
+        </div>
     </div>
   )
 }
