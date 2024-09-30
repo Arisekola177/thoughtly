@@ -88,12 +88,12 @@ const Footer = () => {
         </div>
           <div className="mt-2 w-10/12 mx-auto border-t-[2px] border-gray-300 flex justify-between items-center py-3">
              <div className="flex flex-col gap-3">
-                <p className="text-gray-400 font-extralight">Copyright @ 2024 Thoughtly</p>
-                <p className="text-gray-400 font-extralight">Inc All rights reserved</p>
+                <p className="text-gray-400 xs:text-xs md:text-sm font-extralight">Copyright @ 2024 Thoughtly</p>
+                <p className="text-gray-400 xs:text-xs md:text-sm font-extralight">Inc All rights reserved</p>
              </div>
              <div className="flex flex-col gap-3">
-                <p className="text-gray-400 font-extralight">Terms</p>
-                <p className="text-gray-400 font-extralight">Privacy Policy</p>
+                <p className="text-gray-400 xs:text-xs md:text-sm font-extralight">Terms</p>
+                <p className="text-gray-400 xs:text-xs md:text-sm font-extralight">Privacy Policy</p>
              </div>
         </div>
         <GotoTopButton />

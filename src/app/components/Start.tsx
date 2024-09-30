@@ -13,7 +13,7 @@ const Start = () => {
  <div className='bg-dotted-pattern bg-gray-100 md:w-11/12 w-full mx-auto shadow-md rounded-2xl mt-20 relative'>
         <div className="md:mt-10 xs:mt-5 absolute xs:top-[-70px] md:top-[-100px] sm:left-10 md:left-0 xs:right-5 md:right-16">
            <div className="flex justify-end gap-8">
-                <div className="bg-white rounded-lg shadow-lg flex flex-col gap-4 xs:py-4 xs:px-4 md:py-8 md:px-4">
+                <div className="bg-white rounded-lg shadow-lg flex flex-col gap-4 xs:py-4 xs:px-4 md:py-8 md:px-2">
                    <div className="flex items-center gap-4 ">
                     <div className="bg-[#b6e8b7] border-[1px] rounded-lg shadow-lg  border-green-400 py-1 px-2 sm:py-2 sm:px-4">
                     <MdPlayArrow className="text-green-400 xs:text-xs sm:text-lg" />
@@ -109,8 +109,8 @@ const Start = () => {
                    <hr />
                     <p className='text-xs text-slate-500 md:text-center xs:text-start'>"hello <span className='text-blue-500'>{`{api.name}`}</span>, is your email address still <span className='text-blue-500'>{`{api.email}`}</span> "</p>
                     <div className='flex items-center justify-center gap-8 mt-5'>
-                        <button className='text-slate-500 text-sm'>YES</button>
-                        <button className='text-slate-500 text-sm'>NO, NEW EMAIL</button>
+                        <button className='text-slate-500 text-xs'>YES</button>
+                        <button className='text-slate-500 text-xs'>NO, NEW EMAIL</button>
                     </div>
             </div>
            

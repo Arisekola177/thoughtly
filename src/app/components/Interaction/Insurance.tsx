@@ -8,7 +8,7 @@ const Insurance = () => {
   return (
     <div className="flex xs:flex-col-reverse justify-between gap-4 xs:border-[1px] border-gray-300 rounded-xl xs:p-4 xl:p-8  md:border-none items-center relative md:flex-row  ">
         <div className='xs:mt-16 md:mt-0 w-full'>
-            <h2 className="text-xl font-semibold text-slate-800 mb-4">Insurance </h2>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Insurance </h2>
             <p className="text-slate-500 text-sm xs:w-full xl:w-[400px] ">Our AI agents streamline member interactions by assisting your members with filling new claims, 
              checking their claim status, answer coverage and  benefit questions, and modifying and updating their  policies. With Thoughtly you'll deliver superior
               member service and make data-driven decisions 
@@ -17,7 +17,9 @@ const Insurance = () => {
             </p>
         </div>
         <div className='relative w-full'>
+        <div className='max-w-[600px] max-h-[600px] '>
              <Image src={insure} alt='real estate' width={600} height={600} className='rounded-lg' />
+             </div>
                 <div className="hidden xl:flex absolute bg-white top-[-50px] left-[-250px] w-[400px] rounded-lg shadow-lg flex-col gap-6 py-8 px-4">
                    <div className="flex items-center gap-4 ">
                     <div className="bg-[#b6e8b7] border-[1px] rounded-lg shadow-lg  border-green-400 py-2 px-4">

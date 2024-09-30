@@ -44,11 +44,11 @@ const Business = () => {
   }, [index]);
 
   return (
-    <div className="bg-gray-100 bg-dotted-pattern md:w-11/12 w-full mx-auto shadow-md rounded-2xl mt-20 relative py-16">
+    <div className="bg-gray-100 bg-dotted-pattern lgx:w-11/12 w-full mx-auto shadow-md rounded-2xl mt-20 relative py-16">
       
       <div className="flex items-center justify-center flex-col gap-4 mb-10">
-        <h1 className=" xs:text-2xl sml:text-3xl text-center font-medium text-slate-800">
-          Human-like agents, fully <br /> integrated into your business.
+        <h1 className="xs:text-2xl sml:text-3xl text-center font-semibold text-slate-800">
+         <span className='text-green-500'> Human-like agents, fully</span> <br /> integrated into your business.
         </h1>
         <p className="text-slate-500 text-center text-sm max-w-lg">
           Build powerful workflows that fully automate<br /> your entire sales funnel, customer service<br />
@@ -124,7 +124,7 @@ const Business = () => {
        
         
         {/* Middle box */}
-        <div className="bg-white rounded-2xl shadow-lg p-6 w-full flex flex-col items-center justify-center relative z-10">
+        <div className="bg-white rounded-2xl shadow-lg  p-12 w-full flex flex-col items-center justify-center relative z-10">
           <div className="bg-blue-50 w-24 h-24 rounded-full flex items-center justify-center relative">
             <div className="dot-grid">
               {[...Array(5)].map((_, row) => (
@@ -141,9 +141,9 @@ const Business = () => {
      
 
         {/* Third box */}
-        <div className="bg-white rounded-2xl shadow-lg md:p-3 lg:p-6 w-full flex flex-col gap-4 animate-[moveDown_5s_ease-in-out_infinite] relative z-10">
+        <div className="bg-white rounded-2xl shadow-lg p-6 w-full flex flex-col gap-4 animate-[moveDown_5s_ease-in-out_infinite] relative z-10">
           {content.map((item, i) => (
-            <h2 key={i} className="lg:text-xs md:text-[8px] flex items-center gap-1 font-normal bg-gray-200 py-2 px-2 lg:px-4 rounded-md text-slate-500">
+            <h2 key={i} className="lg:text-xs md:text-[8px] flex items-center md:w-[150px] xl:w-[200px] mx-auto gap-1 font-normal bg-gray-200 py-2 px-2 lg:px-4 rounded-md text-slate-500">
               <MdVerified className="text-green-500 md:text-[14px] lg:text-sm" /> {item}
             </h2>
           ))}

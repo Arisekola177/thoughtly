@@ -7,7 +7,7 @@ const Newsletter = () => {
              Scale with Ease
         </div>
         <div>
-            <h2 className="text-4xl font-semibold text-slate-800">Join the <br /> communication <br /> revolution.</h2>
+            <h2 className="text-5xl font-semibold text-slate-800">Join the <br /> communication <br /> revolution.</h2>
         </div>
         <div className="bg-white w-full md:w-[350px] border-[1px] p-1 border-gray-300 rounded-md flex items-center">
               <input placeholder="What is your work email?" type="text" className="text-xs w-full p-2 outline-none" />

@@ -11,20 +11,20 @@ const Usage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-white rounded-lg shadow-md py-4 ">
                   <div className="grid grid-cols-3 overflow-hidden gap-3">
-                     <div className="flex col-span-2 flex-col items-center gap-2 ">
-                    <div className="flex flex-col gap-4 items-center justify-center  bg-gray-100 p-6 rounded-md ">
-                           <div className="xl:p-6 xs:p-3 bg-blue-500 text-white xs:text-[10px] sml:text-xs xs:w-full xl:w-[250px] rounded-2xl rounded-br-none xs:ml-4 md:ml-10 xl:ml-20">
+                     <div className="flex col-span-2 px-4 flex-col items-center gap-2 ">
+                        <div className="flex flex-col gap-4 items-center justify-center bg-gray-100 p-6 rounded-md ">
+                           <div className="xl:p-6 xs:p-3 bg-blue-500 text-white xs:text-[10px] sml:text-xs xs:w-full xl:w-[250px] rounded-2xl rounded-br-none xs:ml-4 md:ml-8 lgl:ml-14 xl:ml-20">
                             Thursday at 12:30 PM is  best for me!
                            </div>
-                           <div className="xl:p-6 xs:p-3 bg-gray-400 text-white xs:text-[10px] sml:text-xs xs:w-full xl:w-[250px] xs:ml-0 md:ml-10 rounded-2xl rounded-bl-none">
+                           <div className="xl:p-6 xs:p-3 bg-gray-400 text-white xs:text-[10px] sml:text-xs xs:w-full xl:w-[250px] rounded-2xl rounded-bl-none">
                             Perfect I will get that  meeting on John's schedule! Talk to you then!
                            </div>
                           
                      </div>
-                     <div className="xl:mt-10 md:mt-20 xs:mt-10 px-2 flex flex-col gap-4 w-full bg-white">
+                     <div className=" md:mt-20 xs:mt-10 px-2 flex flex-col gap-2 w-full bg-white">
                               <MdCalendarMonth className="text-lg" />
-                              <h3 className="sml:text-2xl xs:text-lg font-semibold text-slate-800">Appointment  Scheduling</h3>
-                              <p className="sml:text-sm xs:text-[10px] sm:text-[13px] text-slate-500 whitespace-nowrap">Your Thoughtly agent synces with your calender,<br /> working alongside callers to pinpoint the<br /> perfect meeting time. Coordinate effortlessly.</p>
+                              <h3 className="sml:text-2xl xs:text-lg font-semibold text-slate-800">Appointment Scheduling</h3>
+                              <p className="sml:text-sm xs:text-[10px] md:text-xs sm:text-[13px] text-slate-500 whitespace-nowrap">Your Thoughtly agent synces with your calender,<br /> working alongside callers to pinpoint the<br /> perfect meeting time. Coordinate effortlessly.</p>
                         </div>
                      </div>
                      <div className="border-[1px] col-span-1 border-gray-300 w-[300px] md:h-[300px] xs:h-[200px] rounded-2xl border-r-0">
@@ -57,55 +57,56 @@ const Usage = () => {
                   
                   </div>
             </div>
-              <div className="bg-white rounded-lg shadow-md px-4 grid grid-cols-3 gap-3 overflow-hidden">
-                 <div className="flex flex-col gap-4 col-span-2">
-                    <div className="grid grid-cols-2 gap-2">
-                       <div className="border-[1px] mt-[-30px] xs:h-[14vh] md:h-[10vh] sml:h-[24vh] border-gray-300 p-6 rounded-2xl">
-                        <div className="xl:w-[120px] xl:h-[120px] mx-auto rounded-full">
-                        <Image src={people1} alt="people" />
+              <div className="bg-white rounded-lg shadow-md px-4 flex flex-col overflow-hidden">
+                 <div className="grid grid-cols-3 md:gap-6 lg:gap-2">
+                 <div className="flex flex-col items-start justify-start gap-4">
+                           <div className="border-[1px] xs:mt-[-50px] sm:mt-[-55px] md:mt-[-50px] lg:mt-[-70px] lgl:mt-[-55px] xl:mt-[-100px] border-gray-300 p-6 rounded-2xl">
+                          <div className="xl:w-[120px] xl:h-[120px] md:w-[60px] md:h-[60px]  mx-auto ">
+                        <Image src={people2} alt="people"  />
                         </div>
-                       </div>
-                       <div className="flex flex-col gap-4">
-                           <div className="border-[1px] xs:mt-[-50px] sm:mt-[-55px] md:mt-[-40px] lg:mt-[-70px] xl:mt-[-100px] border-gray-300 p-6 rounded-2xl">
-                          <div className="xl:w-[120px] xl:h-[120px]  mx-auto rounded-full">
+                          </div>   
+                      </div>
+                       <div className="flex flex-col items-start justify-start gap-4">
+                           <div className="border-[1px] xs:mt-[-50px] sm:mt-[-55px] md:mt-[-40px] lg:mt-[-70px] lgl:mt-[-55px]  xl:mt-[-100px] border-gray-300 p-6 rounded-2xl">
+                          <div className="xl:w-[120px] xl:h-[120px] md:w-[60px] md:h-[60px]  mx-auto ">
                         <Image src={people2} alt="people"  />
                         </div>
                           </div>
-                          <div className="border-[1px]  border-gray-300 p-6 rounded-2xl">
-                          <div className="xl:w-[120px] xl:h-[120px] mx-auto rounded-full">
+                          <div className="border-[1px] border-gray-300 p-6 rounded-2xl">
+                          <div className="xl:w-[120px] xl:h-[120px] md:w-[60px] md:h-[60px] mx-auto rounded-full">
                         <Image src={people3} alt="people"  />
                         </div>
                           </div>
                       </div>
-                    </div> 
-                    <div className="flex flex-col mt-5 sml:pl-2 pb-3 gap-3 md:mt-16 lg:mt-0">
-                        <MdVerifiedUser className="text-slate-500 text-lg" />
-                        <h2 className="sml:text-2xl xs:text-lg font-semibold text-slate-800">Lead <br /> Qualification</h2>
-                          <p className="mt-2 text-slate-500 xs:text-[10px] sm:text-[14px] sml:text-sm whitespace-nowrap">Every incoming call is an oppotunity. Your <br /> Thoughtly agent will never miss a call from a<br /> potential lead, intuitively
-                             directing them to the<br /> ideal point of contact. Perfect routing, every<br /> time, ready to convert.</p>
-                    </div>
-                 </div>
-                 <div className="col-span-1 flex flex-col items-start justify-start gap-4 ">
+                    <div className=" flex flex-col items-start justify-start gap-4 ">
                      <div className="border-[1px] mt-[-20px] border-gray-300 p-6 rounded-2xl">
-                        <div className="xl:w-[120px] xl:h-[120px] xs:w-full xs:h-full mx-auto rounded-full">
+                        <div className="xl:w-[120px] xl:h-[120px] md:w-[60px] md:h-[60px] xs:w-full xs:h-full mx-auto rounded-full">
                         <Image src={people1} alt="people" className="w-full object-contain" />
                         </div>
                        </div>
                        <div className="border-[1px]  border-gray-300 p-6 rounded-2xl">
-                        <div className="xl:w-[120px] xl:h-[120px] xs:w-full xs:h-full mx-auto rounded-full">
+                        <div className="xl:w-[120px] xl:h-[120px] md:w-[60px] md:h-[60px] xs:w-full xs:h-full mx-auto rounded-full">
                         <Image src={people2} alt="people"  className="w-full object-contain" />
                         </div>
                        </div>
                  </div>
+                 </div>
+                
+                 <div className="flex pb-4 md:mt-20 lg:mt-0 lgl:mt-10 flex-col gap-2">
+                        <MdVerifiedUser className="text-slate-500 text-lg" />
+                        <h2 className="sml:text-2xl xs:text-lg font-semibold text-slate-800">Lead  Qualification</h2>
+                          <p className=" text-slate-500 xs:text-[10px] md:text-xs sm:text-[14px]">Every incoming call is an oppotunity. Your <br className="xs:block md:hidden lg:block" /> Thoughtly agent will never miss a call from a<br className="xs:block md:hidden lg:block" /> potential lead, intuitively
+                             directing them to the<br className="xs:block md:hidden lg:block" /> ideal point of contact. Perfect routing, every<br className="xs:block md:hidden lg:block" /> time, ready to convert.</p>
+                    </div>
            </div>
          </div> 
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-4 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-4 mt-5">
              <div className="col-span-2 flex flex-col gap-4">
                <div className="bg-white rounded-lg shadow-lg flex items-center justify-between xs:flex-col-reverse md:flex-row gap-2 relative">
-                    <div className="md:w-[40%]  xs:w-full flex flex-col items-start justify-end gap-4 md:p-3 lg:p-6 xs:p-6">
+                    <div className="md:w-[40%] xs:w-full flex flex-col items-start gap-2 mt-0 xs:pb-4 md:pb-0 md:mt-32 justify-end px-3">
                         <MdAnalytics className="text-slate-500 text-lg" />
-                        <h3 className="sml:text-3xl xs:text-xl md:text-xs lg:text-sm font-semibold text-slate-800">Analytics & Reporting</h3>
-                        <p className="sml:text-sm text-slate-500 md:text-[10px] lg:text-xs sm:text-[14px] xs:text-xs">Optimize your communication strategies by leveraging industry-leading analytics and data collection.</p>
+                        <h3 className="sml:text-2xl xs:text-lg font-semibold text-slate-800">Analytics & Reporting</h3>
+                        <p className="text-slate-500 xs:text-[10px] md:text-xs sm:text-[14px]">Optimize your communication strategies  by leveraging industry-leading analytics and data collection.</p>
                     </div>
                     <div className="md:w-[60%] xs:w-full py-16 bg-gray-50">
                         <Image src={map} alt="map" />
@@ -135,7 +136,7 @@ const Usage = () => {
                     </div>
                 </div>
                 
-                <div className="border-[1px] bg-white border-gray-300 rounded-lg p-2 md:p-6 shadow-md" >
+                <div className="border-[1px] bg-white border-gray-300 rounded-lg p-2 md:p-4 shadow-md" >
                     <div className=" grid grid-cols-1 md:grid-cols-3 bg-[#f7f9f7] rounded-md gap-2 overflow-hidden">
                      <div className="md:hidden flex flex-col gap-4">
                            <div className="grid grid-cols-2 pt-1 gap-3">
@@ -145,12 +146,12 @@ const Usage = () => {
                                        <p className="text-slate-500 xs:text-[10px] sm:text-xs font-semibold">555-555-3211</p>
                                        <p className="text-[8px] text-gray-300 uppercase">Incoming call</p>
                                 </div>
-                                <div className="border-[1px] border-b-0 ml-24 bg-white border-gray-300 rounded-lg flex items-center flex-col mt-5 px-10 py-3">
+                                <div className="border-[1px] border-b-0 ml-12 bg-white border-gray-300 rounded-lg flex items-center justify-center flex-col px-5 mt-5 py-3">
                                  <div className="w-[50px]  mx-auto rounded-full">
-                                <Image src={people1} alt="people"  className="w-full object-contain" />
+                                <Image src={people1} alt="people" className="w-full object-contain" />
                               </div>
-                              <h2 className="text-center font-semibold text-xs  text-slate-800 mt-2">John</h2>
-                              <p className="text-gray-300 text-[8px] uppercase">555-555-6471</p>
+                              <h2 className="text-center font-semibold text-xs text-slate-800 mt-2">John</h2>
+                              <p className="text-gray-400  text-[8px] uppercase">555-555-6471</p>
                              </div>
                                 </div>
                                 <div className="flex flex-col items-center gap-3 justify-center mt-8">
@@ -161,16 +162,16 @@ const Usage = () => {
                                           <button className="text-slate-500 uppercase xs:text-[10px] sm:text-xs">John</button>
                                      </div>
                                 </div>
-                                <div className="border-[1px] border-b-0 bg-white border-gray-300 rounded-lg flex flex-col items-center justify-center px-10 py-3 mt-10 ml-16  ">
+                                <div className="border-[1px] border-b-0 bg-white border-gray-300 rounded-lg flex flex-col items-center justify-center px-5 py-3 mt-10 ml-16  ">
                                  <div className="w-[50px] mx-auto rounded-full">
                                 <Image src={people2} alt="people"  className="w-full object-contain" />
                               </div>
                               <h2 className="text-center font-semibold text-xs  text-slate-800 mt-2 ">Bella</h2>
-                              <p className="text-gray-300 text-[8px] uppercase">555-555-6471</p>
+                              <p className="text-gray-400 text-[8px] uppercase">555-555-6471</p>
                              </div>
                                 </div>
                            </div>
-                           <div className="flex flex-col  gap-4 p-6 bg-white">
+                           <div className="flex flex-col gap-4 py-6 bg-white">
                                 <MdOutbound className="text-lg text-slate-500" />
                                 <h2 className="md:text-3xl xs:text-xl font-semibold text-slate-800">Call  Routing</h2>
                                 <p className="text-xs sm:text-[14px] text-slate-500">Build a human-like receptionist to route  calls based on natural requests from your customers- all with zero hold time.</p>
@@ -178,61 +179,63 @@ const Usage = () => {
                      </div>
                        <div className="hidden md:flex flex-col gap-6 col-span-2">
                              <div className="grid grid-cols-2 gap-4 px-4">
-                                <div className="border-[1px] border-t-0 md:h-[8vh] xl:h-[14vh] bg-white rounded-lg border-gray-300 flex items-center flex-col gap-3 md:px-3 md:py-1 xl:px-6 xl:py-3">
+                              <div className="">
+                                <div className="border-[1px] border-t-0 bg-white py-6  rounded-lg border-gray-300 flex items-center flex-col gap-3 ">
                                        <MdPhone className="xl:text-2xl md:text-sm text-green-500" />
-                                       <p className="text-slate-500  font-semibold md:text-[10px] xl:text-base">555-555-3211</p>
+                                       <p className="text-slate-500 font-semibold text-xs">555-555-3211</p>
+                                </div>
                                 </div>
                                 <div className="border-[1px] bg-white rounded-lg border-gray-300 md:mr-0 xl:mr-6 md:mt-12 xl:mt-24 flex flex-col gap-4 md:p-2 xl:p-6">
-                                     <p className="text-slate-500 md:text-[10px] xl:text-xs">Hello! Who are you looking to get hold of today?</p>
-                                     <div className="flex items-center md:gap-4 xl:gap-8">
-                                          <button className="text-slate-500 uppercase md:text-[12px] xl:text-sm">Bella</button>
-                                          <button className="text-slate-500 uppercase md:text-[12px] xl:text-sm">John</button>
+                                     <p className="text-slate-500 md:text-[10px] text-center font-medium xl:text-xs">Hello! Who are you looking to get hold of today?</p>
+                                     <div className="flex items-center justify-center md:gap-4 xl:gap-8">
+                                          <button className="text-slate-500 font-semibold uppercase md:text-[12px] ">Bella</button>
+                                          <button className="text-slate-500 font-semibold uppercase md:text-[12px] ">John</button>
                                      </div>
                                 </div>
                              </div>
-                             <div className="flex flex-col gap-4 p-6 bg-white">
+                             <div className="flex flex-col gap-4 py-6 bg-white">
                                 <MdOutbound className="text-lg text-slate-500" />
-                                <h2 className="lg:text-3xl md:text-xl font-semibold text-slate-800">Call <br /> Routing</h2>
+                                <h2 className="lg:text-2xl md:text-xl font-semibold text-slate-800">Call  Routing</h2>
                                 <p className="lg:text-sm md:text-xs text-slate-500">Build a human-like receptionist to route <br /> calls based on natural requests from your<br /> customers- all with zero hold time.</p>
                              </div>
                           </div>
                          <div className="hidden md:flex col-span-1 flex-col gap-8 p-4">
-                             <div className="border-[1px] bg-white border-gray-300 rounded-lg md:py-3 xl:py-6 ">
-                             <div className="xl:w-[50px] xl:h-[50px] md:w-[30px] md:h-[30px] mx-auto rounded-full">
+                             <div className="border-[1px] bg-white py-4 border-gray-300 rounded-lg ">
+                             <div className="xl:w-[50px] md:w-[30px] mx-auto ">
                                 <Image src={people1} alt="people"  className="w-full object-contain" />
                               </div>
-                              <h2 className="text-center md:text-xs xl:text-base font-semibold text-slate-800 md:mt-2 xl:mt-4">John</h2>
+                              <h2 className="text-center md:text-xs font-semibold text-slate-800 md:mt-2 xl:mt-4">John</h2>
                              </div>
-                             <div className="border-[1px] bg-white mt-16 border-gray-300 rounded-lg md:py-3 xl:py-6  ">
-                             <div className="xl:w-[50px] xl:h-[50px] md:w-[30px] md:h-[30px] mx-auto rounded-full">
+                             <div className="border-[1px] bg-white py-4 mt-16 border-gray-300 rounded-lg   ">
+                             <div className="xl:w-[50px] md:w-[30px] mx-auto ">
                                 <Image src={people2} alt="people"  className="w-full object-contain" />
                               </div>
-                              <h2 className="text-center md:text-xs xl:text-base font-semibold text-slate-800 md:mt-2 xl:mt-4">Bella</h2>
+                              <h2 className="text-center md:text-xs  font-semibold text-slate-800 md:mt-2 xl:mt-4">Bella</h2>
                              </div>
                          </div>
                     </div>
                 </div>
              </div>
-             <div className="md:col-span-1 xs:col-span-2 rounded-lg shadow-lg bg-white">
+             <div className="col-span-1 rounded-lg shadow-lg bg-white">
                   <div className="grid grid-cols-3 p-4 gap-2">
                      <div className="col-span-2 border-gray-300 border-[1px] rounded-md ">
-                         <div className="flex items-center justify-center py-3 gap-2">
-                            <MdCode className="text-red-700 xs:text-xl xl:text-2xl" />
+                         <div className="flex items-start justify-start p-3 gap-2">
+                            <MdCode className="text-red-700 xs:text-xl " />
                             <div className="flex flex-col gap-2">
-                                <h2 className="xl:text-lg xs:text-xs  font-semibold text-slate-500">Sales Genius</h2>
+                                <h2 className="xl:text-sm xs:text-xs md:text-[8px]  font-semibold text-slate-500">Sales Genius</h2>
                                 <p className="xl:text-xs xs:text-[10px] text-slate-500">16 data sources</p>
                            </div>
                          </div>
                       </div>
-                      <div className="border-gray-300 flex items-center justify-center border-[1px] border-r-0 rounded-md col-span-1 overflow-hidden">
-                        <MdCode className="text-gray-600 xs:text-xl md:text-2xl" />
+                      <div className="border-gray-300 flex items-start justify-start border-[1px] p-3 border-r-0 rounded-md col-span-1 overflow-hidden">
+                        <MdCode className="text-gray-600 xs:text-xl" />
                         <div className="flex flex-col gap-2">
-                                <h2 className="xl:text-lg xs:text-xs font-semibold md:ml-10 lg:ml-0 text-slate-500">Customer</h2>
+                                <h2 className="xl:text-sm xs:text-xs md:text-[8px]  font-semibold md:ml-10 lg:ml-0 text-slate-500">Customer</h2>
                                 <p className="xl:text-xs xs:text-[10px] text-slate-500 md:ml-10 lg:ml-0 whitespace-nowrap">28 data sources</p>
                            </div>
                       </div> 
                   </div>
-                  <div className="flex flex-col gap-4 px-4">
+                  <div className="flex flex-col md:gap-2 gap-4 px-4">
                      <div className="grid grid-cols-3 bg-gray-300 p-1 lg:p-2 rounded-md">
                         <p className="xl:text-xs xs:text-[14px] text-slate-500">File</p>
                         <p className="xl:text-xs xs:text-[14px] text-slate-500">Type</p>
@@ -263,20 +266,26 @@ const Usage = () => {
                         <p className="xl:text-xs xs:text-[10px] text-slate-500">Text Document</p>
                         <p className="xl:text-xs xs:text-[10px] text-slate-500">Active</p>
                      </div>
+                     <div className="grid grid-cols-3 bg-gray-100 xs:p-1 xl:p-2 rounded-md">
+                        <p className="text-[10px] flex items-center gap-2 text-slate-500"><MdSdCard className="md:hidden xl:block" /> Corporate Directory</p>
+                        <p className="xl:text-xs xs:text-[10px] text-slate-500">Text Document</p>
+                        <p className="xl:text-xs xs:text-[10px] text-slate-500">Active</p>
+                     </div>
+                 
                  
                   </div>
-                  <div className="xl:mt-6 xs:mt-2 p-2 xl:p-4 flex items-center justify-center xs:gap-1 xl:gap-3">
+                  <div className="xl:mt-14 xs:mt-2 p-2 xl:p-4 flex items-center justify-center xs:gap-1 xl:gap-3">
                     <div className="border-gray-300 border-[1px] py-4 xs:px-3 xl:px-6 rounded-md">
-                        <h2 className="text-slate-500 text-[12px] xl:text-xs">Add Data Sources</h2>
+                        <h2 className="text-slate-500 text-[12px] md:text-[8px] xl:text-sm">Add Data Sources</h2>
                     </div>
                     <div className="border-gray-300 border-[1px] py-4 xs:px-3 xl:px-6 rounded-md">
-                      <h2 className="text-slate-500 text-[12px] xl:text-xs">Add to a Thoughtly</h2>
+                      <h2 className="text-slate-500 text-[12px] md:text-[8px]  xl:text-sm">Add to a Thoughtly</h2>
                     </div>
                   </div>
-                  <div className="xl:mt-10 xs:mt-1 flex flex-col gap-4 px-4 py-4">
+                  <div className="xl:mt-20 xs:mt-1 flex flex-col gap-4 px-4 py-4">
                          <MdCode className="xl:text-2xl text-xl font-semibold" />
-                         <h2 className="lg:text-3xl xs:text-xl font-semibold text-slate-800">Custome Knowledge Base</h2>
-                         <p className="text-xs text-slate-500 xs:w-[300px] md:w-full xl:w-[300px]">Train your agent on hours of call recordings, unstructured text, and even your website. Your agent will learn from your data and improve over time.</p>
+                         <h2 className="lg:text-2xl xs:text-xl font-semibold text-slate-800">Customer Knowledge Base</h2>
+                         <p className="text-sm md:text-xs text-slate-500 ">Train your agent on hours of call recordings, unstructured text, and even your website. Your agent will learn from your data and improve over time.</p>
                   </div>
             </div>
             

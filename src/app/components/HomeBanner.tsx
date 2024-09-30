@@ -120,7 +120,7 @@ const HomeBanner = () => {
                   </div>
                     
                      <p className="xl:text-xl xs:text-[8px] md:text-[8px] lg:text-sm sml:text-sm font-semibold">+1(855) 717-0250</p>
-                     <p className="text-slate-500 uppercase xs:text-[8px] sml:text-[10px] lg:text-xs">Incoming call</p>
+                     <p className="text-slate-500 uppercase xs:text-[8px] md:text-[8px] sml:text-[10px] lg:text-xs">Incoming call</p>
                    
                 </div>
             </div>

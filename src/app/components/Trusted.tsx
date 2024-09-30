@@ -6,7 +6,7 @@ const Trusted = () => {
     <div className="md:mt-20 xs:mt-10 py-16 text-center flex flex-col gap-4">
       {/* Title Section */}
       <div className="bg-white w-40 mx-auto rounded-md py-1 px-2">
-        <h3 className="font-medium text-green-500 text-sm">Trusted By</h3>
+        <h3 className="font-semibold text-green-500 text-sm">Trusted By</h3>
       </div>
 
       {/* Slider Section */}
